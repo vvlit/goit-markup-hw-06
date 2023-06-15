@@ -452,6 +452,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-email {
   width: 264px;
@@ -464,27 +465,24 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 2;
   color: var(--white);
   padding-left: 16px;
-  margin-right: 24px;
 }
 .footer-email::placeholder {
   color: var(--white);
 }
 .footer-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: var(--iris);
   color: var(--white);
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
 }
-.footer-btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
+
 .footer-icon {
   fill: var(--white);
+  margin-left: 16px;
 }
 /* --------------------MODAL-------------------- */
 .backdrop {
