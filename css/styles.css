@@ -646,7 +646,6 @@ img {
 .modal-check:checked + .check-text span {
   background-color: var(--ocean);
   border: none;
-  border: 1px solid var(--ocean);
   border-radius: 2px;
   letter-spacing: 0.04em;
   color: var(--light-slate);
